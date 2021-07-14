@@ -55,6 +55,7 @@ class App extends Component {
             <input type="text" value={this.state.name} onChange={(e) => this.setState({name: e.target.value})} />
           </div>
           <button onClick={this.enterQueue}>{this.state.queueing ? 'Change Name' : 'Enter Queue'}</button>
+          <button>Enter 5 man queue </button>
           <button onClick={this.leaveQueue}>Leave Queue</button>
         </div>
         : <div>
